@@ -1,9 +1,171 @@
 <!DOCTYPE html>
 <html>
   <head>
-    <title>So-and-so's React Assignment</title>
-  </head>
-  <body>
-    YOUR PROJECT HERE
+    <title>Julia's React Assignment</title>
+
+    <!--I'm having trouble forcing the images to all align to 
+    the left. Nothing I do (whether it's <br> or using the display
+    functions) seems to work. Oddly, when I hover over the top
+    image, everything aligns to the left. I can't see what in the
+    code would be causing this to happen.
+
+    Also, I'm having trouble controlling how the images show
+    up. The same code from my index file for the instructinoal
+    showed up differently when I copied it in here. Specifically,
+    the image sizes appeared completely different (my browser settings
+    were the same).-->
+
+  
+<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+  <script>
+    $(document).ready(function(){
+      $("input").focus(function(){
+        $(this).css("background-color","#cccccc");
+    });
+    $("input").blur(function(){
+      $(this).css("background-color","#ffffff");
+  });
+});
+</script>
+
+ <style>
+
+  h1 {
+    text-align: left;
+    margin: 5px;
+    padding: 5px;
+    font: 24px arial, sans-serif;
+    font-weight: bold;
+  }
+  
+div.img {
+    margin: 5px;
+    padding: 5px;
+    height: auto;
+    float: left;
+    width-max: 612px;
+    text-align: left;
+    display: block;
+}	
+
+div.img a:hover img {
+    border: 1px solid #2b2a2a;
+    This is causing some trouble. I can't get the alignment
+    right here. And every time I hover over the first
+}
+
+div.desc {
+  font: 13px arial, sans-serif;
+  width: 612px;
+  text-align: left;
+}
+
+input {
+  position: relative;
+  line-height: 2em;
+  width: 412px;
+}
+
+ul{
+  list-style: square;
+}
+
+  </style>
+</head>
+
+<body>
+
+  <h1>How to Cast Your Hand</h1>
+<div class="img">
+ <a target="_blank" href="casting1.htm">
+ 	<img src="casting1.jpg" alt="Casted hand" width="600" height="600"></a><br>
+</div>
+
+
+<div class="img">
+ <a target="_blank" href="casting2.htm"><img src="casting2.jpg" alt="Materials" width="600" height="400"></a>
+ <div class="desc"><strong>STEP 1: Get materials</strong>
+ 	<ul>
+ 		<li><a href="http://www.amazon.com/Smooth-Alja-Safe-Alginate-3-lb-Box/dp/B000KVSU60">Alja-Safe Alginate 3-lb Box</a></li>
+ 		<li><a href="https://www.atlanticsupply.com/product_item.asp?id=1705&category_id=239">Hydrocal White Gypsum Cement</a> (less than 5lbs needed, for smaller amounts check your local art store)</li>
+ 		<li><a href="http://www.amazon.com/Custom-Shop-calibrated-mixing-ratios/dp/B0023UPORY/ref=pd_bxgy_hg_img_y">Mixing buckets and measuring cups of various sizes</a></li>
+ 		<li><a href="http://www.amazon.com/Wood-Paint-Paddle-Sticks-Mixing/dp/B0055DY0U8">Wood mixing sticks</a></li>
+ 		<li><a href="http://www.amazon.com/Sterilite-Pitcher-Blue-Green-2-Qt--1-9L/dp/B001MY2MAO/ref=sr_1_4?s=kitchen&ie=UTF8&qid=1410991233&sr=1-4&keywords=pitcher">Pitcher</a></li>
+ 		<li>Water</li>
+ 		<li>A model hand</li>
+ 	</ul>
+ 
+ <strong>Notes:</strong> <input type="text" name="notes"
+
+ </div>
+</div>
+
+<div class="img">
+ <a target="_blank" href="casting3.htm"><img src="casting3.jpg" alt="Materials" width="600" height="400"></a>
+ <div class="desc"><strong>STEP 2: Mix the alginate with water</strong> 
+ 	<br>1:1 ratio (about 40oz of each)
+
+ 	<br><strong>Notes:</strong> <input type="text" name="notes"
+
+ </div>
+</div>
+
+<div class="img">
+ <a target="_blank" href="casting4.htm"><img src="casting4.jpg" alt="Materials" width="600" height="400"></a>
+ <div class="desc"><strong>STEP 3: Immediately pour alginate into pitcher</strong>
+ 
+ <br><strong>Notes:</strong> <input type="text" name="notes"
+
+</div>
+</div>
+
+<div class="img">
+ <a target="_blank" href="casting5.htm"><img src="casting5.jpg" alt="Materials" width="600" height="400"></a>
+ <div class="desc"><strong>STEP 4: Immediately place hand in liquid alginate</strong>
+ 	<br>
+ 	Hold in place for 8min as alginate sets
+
+ <br><strong>Notes:</strong> <input type="text" name="notes"
+
+</div>
+</div>
+
+<div class="img">
+ <a target="_blank" href="casting6.htm"><img src="casting6.jpg" alt="Materials" width="600" height="400"></a>
+ <div class="desc"><strong>STEP 5: Gently remove hand from mold</strong>
+
+ <br><strong>Notes:</strong> <input type="text" name="notes"
+
+</div>
+</div>
+
+<div class="img">
+ <a target="_blank" href="casting9.htm"><img src="casting9.jpg" alt="Materials" width="600" height="400"></a>
+ <div class="desc"><strong>STEP 6: Prepare the plaster</strong>
+ 	<ul>
+ 		<li>Sift plaster into water and let sit untouched about 2min</li>
+ 		<li>Ratio is 3 parts plaster (about 2.5lbs) : 1 part water (about 13oz)</li>
+ 	</ul>
+
+ 	<br><strong>Notes:</strong> <input type="text" name="notes"
+
+ </div>
+</div>
+
+<div class="img">
+ <a target="_blank" href="casting8.htm"><img src="casting8.jpg" alt="Materials" width="600" height="400"></a>
+ <div class="desc"><strong>STEP 7: Vigorously mix the plaster in a circular motion</strong>
+ 	<br>Be weary of air bubbles
+
+ 	<br><strong>Notes:</strong> <input type="text" name="notes"
+
+ </div>
+</div>
+
+<div class="img">
+ <a target="_blank" href="casting1.htm"><img src="casting1.jpg" alt="Materials" width="600" height="600"></a>
+  <div class="desc"><strong>Finished product</strong>
+</div>
+
   </body>
 </html>
